@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Aula 16/07</title>
+</head>
+<body>
+    
+    <form>
+        <label for="nome">Seu Nome: <br></label>
+        <input type="text" id="nome" name="nome">
+
+        <br><br> <label for="telefone"><form="telefone"></form>Seu Telefone: </label>
+        <input type="text" id="telefone" name="telefone"><br>
+
+        <br><label for="email"><form="telefone"></form>Seu E-Mail: <br></label>
+        <input type="eamil" id="email" name="email"><br>
+
+        <br><label>Deseja receber nossas novidades?</label><br>
+        <input type="radio" id="sim" name="novidades" value="sim">
+        <label for="sim">Sim</label>
+        <input type="radio" id="nao" name="novidades" value="nao">
+        <label for="nao">Não</label><br>
+
+        <br><label for="">Sua mensagem:</label><br>
+        <textarea rows="5" cols="100"></textarea><br>
+
+        <br><button>Enviar</button><br>
+
+    </form>
+
+    
+</body>
+</html>
